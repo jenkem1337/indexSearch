@@ -1,7 +1,7 @@
 
 def indexSerach(array, somethingInArray):
     i = 0
-    while i < len(array):
+    while i <= len(array):
         if somethingInArray == array[i]:
             print(f"Your index in here => {i}")
             break
